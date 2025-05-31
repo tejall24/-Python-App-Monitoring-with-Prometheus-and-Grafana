@@ -50,7 +50,8 @@ python3 -m venv prometheus-env
 source prometheus-env/bin/activate
 pip install flask prometheus_client
 Create app.py:
-[View app.py](https://github.com/tejall24/-Python-App-Monitoring-with-Prometheus-and-Grafana/blob/main/app.py)
+![app.py](https://github.com/tejall24/-Python-App-Monitoring-with-Prometheus-and-Grafana/blob/93254ac7383ce25f7031440e829ff7d7b89be80a/app.py.txt)
+
 python
 Copy
 Edit
