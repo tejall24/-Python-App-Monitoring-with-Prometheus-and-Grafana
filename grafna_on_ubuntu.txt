@@ -1,0 +1,28 @@
+Use the Manual Method Instead
+
+Run the following step-by-step commands:
+
+1. Add Grafana GPG Key
+
+sudo mkdir -p /usr/share/keyrings
+curl -fsSL https://apt.grafana.com/gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/grafana.gpg
+
+2. Add the APT repository manually
+
+echo "deb [signed-by=/usr/share/keyrings/grafana.gpg] https://apt.grafana.com stable main" | sudo tee /etc/apt/sources.list.d/grafana.list
+
+3. Update APT cache
+
+sudo apt update
+
+
+4. Install Grafana
+
+sudo apt install -y grafana
+
+5. Start and enable Grafana
+
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+
+To access Grafana at `http://<your-server-ip>:3000`.
