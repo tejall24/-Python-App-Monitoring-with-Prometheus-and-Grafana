@@ -48,9 +48,13 @@ add on rules section in the prometheus.yml:
 ✅ 3. Create Python Flask App with Prometheus Metrics
 
 -sudo apt install python3-pip -y
+
 -sudo apt install python3.12-venv -y
+
 -python3 -m venv prometheus-env
+
 -source prometheus-env/bin/activate
+
 -pip install flask prometheus_client
 
 #Create app.py:
