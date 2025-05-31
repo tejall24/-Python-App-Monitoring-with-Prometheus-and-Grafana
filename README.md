@@ -108,14 +108,22 @@ agian run python app.py ...(refersh again and again)
 ✅ 5. Install and Start Grafana
 
 -sudo mkdir -p /usr/share/keyrings
+
 -curl -fsSL https://apt.grafana.com/gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/grafana.gpg
+
+
 -echo "deb [signed-by=/usr/share/keyrings/grafana.gpg] https://apt.grafana.com stable main" | sudo tee /etc/apt/sources.list.d/grafana.list
+
+
 -sudo apt update
+
+
 -sudo apt install grafana -y
 
 #start grafnana :
 
 -sudo systemctl start grafana-server
+
 -sudo systemctl enable grafana-server
 
 
