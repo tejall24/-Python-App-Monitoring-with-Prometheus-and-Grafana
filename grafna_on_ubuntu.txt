@@ -25,4 +25,4 @@ sudo apt install -y grafana
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
 
-To access Grafana at `http://<your-server-ip>:3000`..
+To access Grafana at `http://<your-server-ip>:3000`.
