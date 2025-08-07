@@ -1,6 +1,6 @@
 Use the Manual Method Instead
 
-Run the following step-by-step commands::
+Run the following step-by-step commands:
 
 1. Add Grafana GPG Key
 
@@ -26,5 +26,6 @@ sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
 
 To access Grafana at `http://<your-server-ip>:3000`.
+
 
 
