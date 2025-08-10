@@ -10,8 +10,8 @@ make changes in /etc/prometheus/prometheus.yml file (add new job for node)
   
   
   
- sudo apt update
- sudo apt install python3 python3-pip -y
+  sudo apt update
+  sudo apt install python3 python3-pip -y
  
   sudo apt install python3.12-venv
   python3 -m venv prometheus-env
@@ -19,8 +19,9 @@ make changes in /etc/prometheus/prometheus.yml file (add new job for node)
   pip install flask prometheus-client
   python app.py 
 
-   sudo nano /etc/prometheus/prometheus.yml 
-   sudo service prometheus reload
-   sudo service prometheus-node-exporter reload
+  sudo nano /etc/prometheus/prometheus.yml 
+  sudo service prometheus reload
+  sudo service prometheus-node-exporter reload
+
 
   python app.py 
